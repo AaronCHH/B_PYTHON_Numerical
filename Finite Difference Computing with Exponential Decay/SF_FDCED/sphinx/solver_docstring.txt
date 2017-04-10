@@ -1,0 +1,10 @@
+
+:mod:`solver_docstring`
+=======================
+
+.. automodule:: solver_docstring
+   :members:
+   :undoc-members:
+   :special-members:
+   :inherited-members:
+   :show-inheritance:

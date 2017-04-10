@@ -1,0 +1,9 @@
+((*- extends 'article.tplx' -*))
+
+((* block author *))
+\author{Cyrille Rossant}
+((* endblock author *))
+
+((* block title *))
+\title{My document}
+((* endblock title *))

@@ -1,0 +1,34 @@
+
+body {
+    /* Background color for the whole notebook. */
+    background-color: #f0f0f0;
+}
+
+/* Level 1 headers. */
+h1 {
+    text-align: right;
+    color: red;
+}
+
+/* Code cells. */
+div.input_area > div.highlight > pre {
+    font-size: 10px;
+}
+
+/* Output images. */
+div.output_area img {
+    border: 3px #ababab solid;
+    border-radius: 8px;
+}
+
+/* Selected cells. */
+div.cell.selected {
+    border: 3px #ababab solid;
+    background-color: #ddd;
+}
+
+/* Code cells in edit mode. */
+div.cell.edit_mode {
+    border: 3px red solid;
+    background-color: #faa;
+}

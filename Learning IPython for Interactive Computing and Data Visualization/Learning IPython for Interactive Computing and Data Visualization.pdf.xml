@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BookmarkExport>
+  <Item ID="1" Name="Cover" Page="1" Open="0" />
+  <Item ID="2" Name="Copyright" Page="3" Open="0" />
+  <Item ID="3" Name="Credits" Page="4" Open="0" />
+  <Item ID="4" Name="About the Author" Page="5" Open="0" />
+  <Item ID="5" Name="About the Reviewer" Page="6" Open="0" />
+  <Item ID="6" Name="www.PacktPub.com" Page="7" Open="0" />
+  <Item ID="7" Name="Table of Contents" Page="8" Open="0" />
+  <Item ID="8" Name="Preface" Page="12" Open="0" />
+  <Item ID="9" Name="Chapter 1: Getting Started with IPython" Page="16" Open="0">
+    <Item ID="10" Name="Installing IPython and the recommended packages" Page="17" Open="0">
+      <Item ID="11" Name="Prerequisites for IPython" Page="17" Open="0" />
+      <Item ID="12" Name="Installing an all-in-one distribution" Page="18" Open="0" />
+      <Item ID="13" Name="Installing the packages one by one" Page="18" Open="0">
+        <Item ID="14" Name="Packages websites" Page="19" Open="0" />
+        <Item ID="15" Name="Getting binary installers" Page="20" Open="0" />
+        <Item ID="16" Name="Using the Python packaging system" Page="22" Open="0" />
+      </Item>
+      <Item ID="17" Name="Installing the development versions" Page="23" Open="0" />
+    </Item>
+    <Item ID="18" Name="Ten IPython essentials" Page="24" Open="0">
+      <Item ID="19" Name="Running the IPython console" Page="24" Open="0" />
+      <Item ID="20" Name="Using IPython as a system shell" Page="25" Open="0" />
+      <Item ID="21" Name="Using the history" Page="26" Open="0" />
+      <Item ID="22" Name="Tab completion" Page="26" Open="0" />
+      <Item ID="23" Name="Executing a script with the %run command" Page="27" Open="0" />
+      <Item ID="24" Name="Quick benchmarking with the %timeit command" Page="28" Open="0" />
+      <Item ID="25" Name="Quick debugging with the %debug command" Page="28" Open="0" />
+      <Item ID="26" Name="Interactive computing with Pylab" Page="29" Open="0" />
+      <Item ID="27" Name="Using the IPython Notebook" Page="30" Open="0" />
+      <Item ID="28" Name="Customizing IPython" Page="30" Open="0" />
+    </Item>
+    <Item ID="29" Name="Summary" Page="31" Open="0" />
+  </Item>
+  <Item ID="30" Name="Chapter 2: Interactive Work with IPython" Page="32" Open="0">
+    <Item ID="31" Name="The extended shell" Page="32" Open="0">
+      <Item ID="32" Name="Navigating through the filesystem" Page="33" Open="0" />
+      <Item ID="33" Name="Accessing the system shell from IPython" Page="35" Open="0" />
+    </Item>
+    <Item ID="34" Name="The extended Python console" Page="36" Open="0">
+      <Item ID="35" Name="Exploring the history" Page="37" Open="0" />
+      <Item ID="36" Name="Import/export of Python code" Page="38" Open="0">
+        <Item ID="37" Name="Importing code in IPython" Page="38" Open="0" />
+        <Item ID="38" Name="Exporting code to a file" Page="40" Open="0" />
+      </Item>
+      <Item ID="39" Name="Dynamic introspection" Page="40" Open="0">
+        <Item ID="40" Name="Tab completion" Page="40" Open="0" />
+        <Item ID="41" Name="Source code introspection" Page="42" Open="0" />
+      </Item>
+      <Item ID="42" Name="Using the interactive debugger" Page="43" Open="0" />
+      <Item ID="43" Name="Interactive benchmarking and profiling" Page="44" Open="0">
+        <Item ID="44" Name="Controlling the execution time of a command" Page="44" Open="0" />
+        <Item ID="45" Name="Profiling a script" Page="45" Open="0" />
+      </Item>
+    </Item>
+    <Item ID="46" Name="Using the IPython notebook" Page="46" Open="0">
+      <Item ID="47" Name="Installation" Page="47" Open="0" />
+      <Item ID="48" Name="The notebook dashboard" Page="47" Open="0" />
+      <Item ID="49" Name="Working with cells" Page="48" Open="0" />
+      <Item ID="50" Name="Cell magics" Page="49" Open="0" />
+      <Item ID="51" Name="Managing notebooks" Page="50" Open="0" />
+      <Item ID="52" Name="Multimedia and rich text editing" Page="50" Open="0" />
+      <Item ID="53" Name="Graph plotting" Page="51" Open="0" />
+    </Item>
+    <Item ID="54" Name="Summary" Page="52" Open="0" />
+  </Item>
+  <Item ID="55" Name="Chapter 3: Numerical Computing &#xA;with IPython" Page="54" Open="0">
+    <Item ID="56" Name="A primer to vector computing" Page="55" Open="0">
+      <Item ID="57" Name="An example of computation with Python loops" Page="55" Open="0" />
+      <Item ID="58" Name="What an array is" Page="56" Open="0" />
+      <Item ID="59" Name="Reimplementing the example with arrays" Page="59" Open="0" />
+    </Item>
+    <Item ID="60" Name="Creating and loading arrays" Page="61" Open="0">
+      <Item ID="61" Name="Creating arrays" Page="61" Open="0">
+        <Item ID="62" Name="From scratch, element by element" Page="61" Open="0" />
+        <Item ID="63" Name="From scratch, using predefined templates" Page="62" Open="0" />
+        <Item ID="64" Name="From random values" Page="63" Open="0" />
+      </Item>
+      <Item ID="65" Name="Loading arrays" Page="64" Open="0">
+        <Item ID="66" Name="From a native Python object" Page="64" Open="0" />
+        <Item ID="67" Name="From a buffer or an external file" Page="64" Open="0" />
+        <Item ID="68" Name="Using Pandas" Page="65" Open="0" />
+      </Item>
+    </Item>
+    <Item ID="69" Name="Working with arrays" Page="67" Open="0">
+      <Item ID="70" Name="Selection" Page="67" Open="0">
+        <Item ID="71" Name="Using Pandas" Page="68" Open="0" />
+        <Item ID="72" Name="Using NumPy" Page="69" Open="0" />
+        <Item ID="73" Name="More indexing possibilities" Page="70" Open="0" />
+      </Item>
+      <Item ID="74" Name="Manipulation" Page="71" Open="0">
+        <Item ID="75" Name="Reshaping" Page="71" Open="0" />
+        <Item ID="76" Name="Repeating and concatenating" Page="72" Open="0" />
+        <Item ID="77" Name="Broadcasting" Page="73" Open="0" />
+        <Item ID="78" Name="Permuting" Page="74" Open="0" />
+      </Item>
+      <Item ID="79" Name="Computation" Page="74" Open="0" />
+    </Item>
+    <Item ID="80" Name="Advanced mathematical processing" Page="76" Open="0" />
+    <Item ID="81" Name="Summary" Page="77" Open="0" />
+  </Item>
+  <Item ID="82" Name="Chapter 4: Interactive Plotting and Graphical Interfaces" Page="78" Open="0">
+    <Item ID="83" Name="Figures with Matplotlib" Page="79" Open="0">
+      <Item ID="84" Name="Setting up IPython for interactive visualization" Page="79" Open="0">
+        <Item ID="85" Name="Using Matplotlib" Page="79" Open="0" />
+        <Item ID="86" Name="Interactive navigation" Page="80" Open="0" />
+        <Item ID="87" Name="Matplotlib in the IPython notebook" Page="80" Open="0" />
+      </Item>
+      <Item ID="88" Name="Standard plots" Page="80" Open="0">
+        <Item ID="89" Name="Curves" Page="80" Open="0" />
+        <Item ID="90" Name="Scatter plots" Page="82" Open="0" />
+        <Item ID="91" Name="Bar graphs" Page="83" Open="0" />
+      </Item>
+      <Item ID="92" Name="Plot customization" Page="83" Open="0">
+        <Item ID="93" Name="Styles and colors" Page="84" Open="0" />
+        <Item ID="94" Name="Grid, axes, and legends" Page="85" Open="0" />
+        <Item ID="95" Name="Interaction from IPython" Page="86" Open="0" />
+        <Item ID="96" Name="Drawing multiple plots" Page="87" Open="0" />
+      </Item>
+    </Item>
+    <Item ID="97" Name="Advanced figures and graphics" Page="87" Open="0">
+      <Item ID="98" Name="Image processing" Page="88" Open="0">
+        <Item ID="99" Name="Loading images" Page="88" Open="0" />
+        <Item ID="100" Name="Showing images" Page="89" Open="0" />
+        <Item ID="101" Name="Using PIL" Page="90" Open="0" />
+        <Item ID="102" Name="Advanced image processing – color quantization" Page="90" Open="0" />
+      </Item>
+      <Item ID="103" Name="Maps" Page="92" Open="0" />
+      <Item ID="104" Name="3D plots" Page="94" Open="0" />
+      <Item ID="105" Name="Animations" Page="95" Open="0" />
+      <Item ID="106" Name="Other visualization packages" Page="95" Open="0" />
+    </Item>
+    <Item ID="107" Name="Graphical User Interfaces (GUI)" Page="95" Open="0">
+      <Item ID="108" Name="Setting up IPython for interactive GUIs" Page="96" Open="0" />
+      <Item ID="109" Name="A &quot;Hello World&quot; example" Page="96" Open="0" />
+    </Item>
+    <Item ID="110" Name="Summary" Page="98" Open="0" />
+  </Item>
+  <Item ID="111" Name="Chapter 5: High-Performance and Parallel Computing" Page="100" Open="0">
+    <Item ID="112" Name="Interactive task parallelization" Page="101" Open="0">
+      <Item ID="113" Name="Parallel computing in Python" Page="101" Open="0" />
+      <Item ID="114" Name="Distributing tasks on multiple cores" Page="102" Open="0">
+        <Item ID="115" Name="Starting the engines" Page="102" Open="0" />
+        <Item ID="116" Name="Creating a Client instance" Page="103" Open="0" />
+        <Item ID="117" Name="Using the parallel magic" Page="103" Open="0" />
+        <Item ID="118" Name="Parallel map" Page="104" Open="0" />
+      </Item>
+      <Item ID="119" Name="A practical example – Monte Carlo simulations" Page="106" Open="0" />
+      <Item ID="120" Name="Using MPI with IPython" Page="107" Open="0" />
+      <Item ID="121" Name="Advanced parallel computing features &#xA;of IPython" Page="109" Open="0" />
+    </Item>
+    <Item ID="122" Name="Using C in IPython with Cython" Page="110" Open="0">
+      <Item ID="123" Name="Installing and configuring Cython" Page="110" Open="0" />
+      <Item ID="124" Name="Using Cython from IPython" Page="111" Open="0" />
+      <Item ID="125" Name="Accelerating a pure Python algorithm with Cython" Page="112" Open="0">
+        <Item ID="126" Name="Pure Python version" Page="112" Open="0" />
+        <Item ID="127" Name="Naïve Cython conversion" Page="113" Open="0" />
+        <Item ID="128" Name="Adding C types" Page="113" Open="0" />
+      </Item>
+      <Item ID="129" Name="Using NumPy and Cython" Page="114" Open="0">
+        <Item ID="130" Name="Python version" Page="114" Open="0" />
+        <Item ID="131" Name="Cython version" Page="115" Open="0" />
+      </Item>
+      <Item ID="132" Name="More advanced options for accelerating Python code" Page="117" Open="0" />
+    </Item>
+    <Item ID="133" Name="Summary" Page="118" Open="0" />
+  </Item>
+  <Item ID="134" Name="Chapter 6: Customizing IPython" Page="120" Open="0">
+    <Item ID="135" Name="IPython profiles" Page="120" Open="0">
+      <Item ID="136" Name="Profile locations" Page="121" Open="0" />
+      <Item ID="137" Name="The IPython configuration files" Page="121" Open="0" />
+      <Item ID="138" Name="Loading scripts when IPython starts" Page="122" Open="0" />
+    </Item>
+    <Item ID="139" Name="IPython extensions" Page="122" Open="0">
+      <Item ID="140" Name="Example – line-by-line profiling" Page="122" Open="0" />
+      <Item ID="141" Name="Creating new extensions" Page="124" Open="0">
+        <Item ID="142" Name="Example – executing C++ code in IPython" Page="124" Open="0" />
+      </Item>
+    </Item>
+    <Item ID="143" Name="Rich representations in the frontend" Page="126" Open="0" />
+    <Item ID="144" Name="Embedding IPython" Page="128" Open="0" />
+    <Item ID="145" Name="Final words" Page="128" Open="0" />
+    <Item ID="146" Name="Summary" Page="129" Open="0" />
+  </Item>
+  <Item ID="147" Name="Index" Page="130" Open="0" />
+</BookmarkExport>
