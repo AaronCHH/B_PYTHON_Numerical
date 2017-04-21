@@ -1,7 +1,8 @@
 
 # Chapter 2 NumPy
+<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
+<!-- tocstop -->
 
-<div id="toc"></div>
 
 
 ## 2.1 NumPy Arrays
@@ -20,7 +21,7 @@ larr = arr.tolist()
 def list_times(alist, scalar):
     for i, val in enumerate(alist):
         alist[i] = val * scalar
-        return alist    
+        return alist
 ```
 
 
@@ -59,7 +60,7 @@ mat = np.matrix(arr)
           4 # Trying to convert array to a matrix, which will not work
     ----> 5 mat = np.matrix(arr)
           6 # "ValueError: shape too large to be a matrix."
-    
+
 
     C:\Anaconda\lib\site-packages\numpy\matrixlib\defmatrix.pyc in __new__(subtype, data, dtype, copy)
         256             else:
@@ -67,7 +68,7 @@ mat = np.matrix(arr)
     --> 258             new = data.view(subtype)
         259             if intype != data.dtype:
         260                 return new.astype(intype)
-    
+
 
     C:\Anaconda\lib\site-packages\numpy\matrixlib\defmatrix.pyc in __array_finalize__(self, obj)
         301                 return
@@ -75,7 +76,7 @@ mat = np.matrix(arr)
     --> 303                 raise ValueError("shape too large to be a matrix.")
         304         else:
         305             newshape = self.shape
-    
+
 
     ValueError: shape too large to be a matrix.
 
@@ -230,7 +231,7 @@ new_arr = arr[index]
 ```
 
     (array([3, 4], dtype=int64),)
-    
+
 
 
 ```python
@@ -247,7 +248,7 @@ new_arr = arr[index]
 ```
 
     [False False False  True  True]
-    
+
 
 2 http://atpy.github.com
 
@@ -365,8 +366,8 @@ np.savez('test.npz', data)
 newdata = np.load('test.npy')
 ```
 
-3 http://matplotlib.sourceforge.net/api/mlab_api.html  
-4 http://cxc.harvard.edu/contrib/asciitable/  
+3 http://matplotlib.sourceforge.net/api/mlab_api.html
+4 http://cxc.harvard.edu/contrib/asciitable/
 
 ## 2.4 Math
 
@@ -396,7 +397,7 @@ print(X)
     [[ 1.75]
      [ 1.75]
      [ 0.75]]
-    
+
 
 
 ```python
@@ -416,6 +417,6 @@ print(x)
 ```
 
     [ 1.75  1.75  0.75]
-    
+
 
 5 http://docs.scipy.org/doc/numpy/reference/generated/numpy.linalg.svd.html

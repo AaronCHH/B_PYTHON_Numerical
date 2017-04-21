@@ -1,12 +1,13 @@
 
 # Chapter 3 SciPy
+<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
+<!-- tocstop -->
 
-<div id="toc"></div>
 
 ##    3.1 Optimization
 
-1 http://pymc-devs.github.com/pymc/  
-2 http://danfm.ca/emcee/  
+1 http://pymc-devs.github.com/pymc/
+2 http://danfm.ca/emcee/
 
 ### 3.1.1 Data Modeling and Fitting
 
@@ -30,7 +31,7 @@ print(popt)
 ```
 
     [ 1.02227875  1.94518945]
-    
+
 
 
 ```python
@@ -50,7 +51,7 @@ print(popt)
 ```
 
     [ 0.98241268  5.06309906 -1.96356501]
-    
+
 
 
 ```python
@@ -84,7 +85,7 @@ print solution
 ```
 
     [-3.]
-    
+
 
 
 ```python
@@ -107,7 +108,7 @@ print(result, line(result))
     (array([ 13.40773078,  18.11366128,  31.78330863,  37.0799992 ,
             39.84837786,  43.8258775 ]), array([-0.36592269, -0.31886339, -0.18216691, -0.12920001, -0.10151622,
            -0.06174122]))
-    
+
 
 ##    3.2 Interpolation
 
@@ -182,7 +183,7 @@ interp = fit(np.linspace(0, 5, 1000), np.linspace(0, 5, 1000))
 
     C:\Anaconda\lib\site-packages\scipy\interpolate\fitpack2.py:931: UserWarning: ier=39779
       warnings.warn(message)
-    
+
 
 ##    3.3 Integration
 
@@ -204,7 +205,7 @@ print solution
 ```
 
     (1.296467785724373, 1.3977971338839115e-09)
-    
+
 
 ### 3.3.2 Numerical Integration
 
@@ -231,7 +232,7 @@ print('The difference is ' + str(np.abs(fsolution[0] - dsolution)))
     fsolution = 5.10034506754
     dsolution = 5.23192054843
     The difference is 0.131575480886
-    
+
 
 ##    3.4 Statistics
 
@@ -315,15 +316,15 @@ print('P-value = ' + str(out[1]))
     normaltest output
     Z-score = 0.0320796718658
     P-value = 0.984088117206
-    
+
     kstest output for the Normal distribution
      D = 0.0841666088488
     P-value = 0.458909133506
-    
+
     kstest output for the Wald distribution
      D = 0.573001391524
     P-value = 0.0
-    
+
 
 
 ```python
@@ -356,11 +357,11 @@ print('Kurtosis = ' + str(out[5]))
 ```
 
     Harmonic mean = 0.309528933952
-    
+
     Trimmed mean = 0.107303124434
-    
+
     Skewness = 0.0115818044833
-    
+
     Size = 100
     Min = -2.4561246868
     Max = 2.83012001143
@@ -368,13 +369,13 @@ print('Kurtosis = ' + str(out[5]))
     Variance = 1.13395549716
     Skewness = 0.0115818044833
     Kurtosis = -0.0349635587309
-    
+
 
 ##    3.5 Spatial and Clustering Analysis
 
-6 http://rpy.sourceforge.net/  
-7 http://pandas.pydata.org/  
-8 http://networkx.lanl.gov/  
+6 http://rpy.sourceforge.net/
+7 http://pandas.pydata.org/
+8 http://networkx.lanl.gov/
 
 ### 3.5.1 Vector Quantization
 
@@ -481,7 +482,7 @@ def group(data, index):
     groups = []
     for i in number:
         groups.append(data[index == i])
-    
+
     return groups
 
 # Creating a cluster of clusters
@@ -508,7 +509,7 @@ for i, g in enumerate(groups):
     ax.scatter(g[:,0], g[:,1], c=colors[i], edgecolor='none', s=50)
     ax.xaxis.set_visible(False)
     ax.yaxis.set_visible(False)
-    
+
 fig.savefig('cluster_hy_f02.pdf', bbox = 'tight')
 ```
 
@@ -543,7 +544,7 @@ from glob import glob
 def chop_lighter(image1, image2):
     s1 = np.sum(image1, axis=2)
     s2 = np.sum(image2, axis=2)
-    
+
     index = s1 < s2
     image1[index, 0] = image2[index, 0]
     image1[index, 1] = image2[index, 1]
@@ -579,8 +580,8 @@ t0 = time.time()
 
     The numpy array data size: 72000000 bytes
     The sparse matrix data size: 720000 bytes
-    
+
 
 ##    3.8 Reading and Writing Files Beyond NumPy
 
-Matlab or collaborating with others who are using it, then as briefly mentioned in the previous section, it is not a problem for NumPy to read and write Matlab-supported files (using __scipy.io.loadmat__ and __scipy.savemat__) 
+Matlab or collaborating with others who are using it, then as briefly mentioned in the previous section, it is not a problem for NumPy to read and write Matlab-supported files (using __scipy.io.loadmat__ and __scipy.savemat__)

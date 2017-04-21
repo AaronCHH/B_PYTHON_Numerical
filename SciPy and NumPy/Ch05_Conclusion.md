@@ -1,7 +1,8 @@
 
 # Chapter 5 Conclusion
+<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
+<!-- tocstop -->
 
-<div id="toc"></div>
 
 ## 5.1 Summary
 

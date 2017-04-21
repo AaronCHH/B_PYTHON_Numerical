@@ -1,7 +1,8 @@
 
 # Chapter 4 SciKit: Taking SciPy One Step Further
+<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
+<!-- tocstop -->
 
-<div id="toc"></div>
 
 
 #     4.1 Scikit-Image
@@ -268,8 +269,8 @@ ax2.text(-11, 10, 'DBSCAN identified')
 fig.savefig('scikit_learn_clusters.pdf', bbox_inches='tight')
 ```
 
-4 http://www.scikit-learn.org/stable/modules/linear_model.html  
-5 http://www.scikit-learn.org/stable/modules/clustering.html  
+4 http://www.scikit-learn.org/stable/modules/linear_model.html
+5 http://www.scikit-learn.org/stable/modules/clustering.html
 
 
 ```python
