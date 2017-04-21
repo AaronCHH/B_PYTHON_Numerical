@@ -1,6 +1,12 @@
 
 # Chapter 1 Introduction
 <!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
+
+* [Chapter 1 Introduction](#chapter-1-introduction)
+  * [1.1 Why SciPy and NumPy?](#11-why-scipy-and-numpy)
+  * [1.2 Getting NumPy and SciPy](#12-getting-numpy-and-scipy)
+  * [1.3 Working with SciPy and NumPy](#13-working-with-scipy-and-numpy)
+
 <!-- tocstop -->
 
 

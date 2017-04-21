@@ -1,6 +1,15 @@
 
 # Chapter 4 SciKit: Taking SciPy One Step Further
 <!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
+
+* [Chapter 4 SciKit: Taking SciPy One Step Further](#chapter-4-scikit-taking-scipy-one-step-further)
+* [4.1 Scikit-Image](#41-scikit-image)
+    * [4.1.1 Dynamic Threshold](#411-dynamic-threshold)
+    * [4.1.2 Local Maxima](#412-local-maxima)
+  * [4.2 Scikit-Learn](#42-scikit-learn)
+    * [4.2.1 Linear Regression](#421-linear-regression)
+    * [4.2.2 Clustering](#422-clustering)
+
 <!-- tocstop -->
 
 

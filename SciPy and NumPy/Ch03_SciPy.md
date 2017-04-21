@@ -1,6 +1,25 @@
 
 # Chapter 3 SciPy
 <!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
+
+* [Chapter 3 SciPy](#chapter-3-scipy)
+  * [3.1 Optimization](#31-optimization)
+    * [3.1.1 Data Modeling and Fitting](#311-data-modeling-and-fitting)
+    * [3.1.2 Solutions to Functions](#312-solutions-to-functions)
+  * [3.2 Interpolation](#32-interpolation)
+  * [3.3 Integration](#33-integration)
+    * [3.3.1 Analytic Integration](#331-analytic-integration)
+    * [3.3.2 Numerical Integration](#332-numerical-integration)
+  * [3.4 Statistics](#34-statistics)
+    * [3.4.1 Continuous and Discrete Distributions](#341-continuous-and-discrete-distributions)
+    * [3.4.2 Functions](#342-functions)
+  * [3.5 Spatial and Clustering Analysis](#35-spatial-and-clustering-analysis)
+    * [3.5.1 Vector Quantization](#351-vector-quantization)
+    * [3.5.2 Hierarchical Clustering](#352-hierarchical-clustering)
+  * [3.6 Signal and Image Processing](#36-signal-and-image-processing)
+  * [3.7 Sparse Matrices](#37-sparse-matrices)
+  * [3.8 Reading and Writing Files Beyond NumPy](#38-reading-and-writing-files-beyond-numpy)
+
 <!-- tocstop -->
 
 

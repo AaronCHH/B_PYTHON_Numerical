@@ -1,6 +1,19 @@
 
 # Chapter 2 NumPy
 <!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
+
+* [Chapter 2 NumPy](#chapter-2-numpy)
+  * [2.1 NumPy Arrays](#21-numpy-arrays)
+    * [2.1.1 Array Creation and Data Typing](#211-array-creation-and-data-typing)
+    * [2.1.2 Record Arrays](#212-record-arrays)
+    * [2.1.3 Indexing and Slicing](#213-indexing-and-slicing)
+  * [2.2 Boolean Statements and NumPy Arrays](#22-boolean-statements-and-numpy-arrays)
+  * [2.3 Read and Write](#23-read-and-write)
+    * [2.3.1 Text Files](#231-text-files)
+    * [2.3.2 Binary Files](#232-binary-files)
+  * [2.4 Math](#24-math)
+    * [2.4.1 Linear Algebra](#241-linear-algebra)
+
 <!-- tocstop -->
 
 
